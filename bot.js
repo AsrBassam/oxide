@@ -8,7 +8,7 @@ client.on("ready", async() => {
     client.user.setGame("Loading...");
 console.log(`Back Online In ${client.guilds.size} Servers!`);
     setTimeout(() => {
-        client.user.setActivity(`{prefix}Oxide Community`, {type: "WATCHING"});
+        client.user.setActivity(`Oxide Community`, {type: "WATCHING"});
     }, 3000);
 });
 
